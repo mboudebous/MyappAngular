@@ -6,7 +6,7 @@ pipeline {
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/main']],
                         userRemoteConfigs: [[
-                            credentialsId: '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',
+                            credentialsId: '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',
                             url: 'https://github.com/mboudebous/MyappAngular.git']]])
                 }
             }
